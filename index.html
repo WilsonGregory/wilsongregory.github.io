@@ -1,1 +1,110 @@
-New phone, who dis?
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Wilson Gregory</title>
+  </head>
+  <body>
+  	<nav class="navbar navbar-light bg-light navbar-expand-lg">
+  		<div class="container">
+	  		<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="#">Wilson Gregory</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about_me">About Me</a></li>
+					<li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+					<li class="nav-item">
+						<a class="nav-link" href="assets/gregory_resume_online.pdf" target="=_blank">CV</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/WilsonGregory" target="_blank">Github</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+  	<div class="container">
+  		<div class="row mt-5 bg-info" id="about_me">
+  			<div class="col-sm-4"></div>
+  			<div class="col-sm-8">
+  				<h1>About Me</h1>
+  			</div>
+  		</div>
+  		<div class="row mt-2">
+  			<div class="col-sm-4">
+  				<img class="img-fluid img-thumbnail" src="assets/wilson_with_cow.jpg" alt="Wilson with cow">
+  				<div class="d-flex justify-content-center">Me with a cow</div>
+  			</div>
+  			<div class="col-sm-8">
+  				<div>
+	  				<paragraph>
+	  					I am a second year PhD student at the Johns Hopkins University in the department of <a href="https://engineering.jhu.edu/ams/" target="_blank">Applied Mathematics and Statistics</a>. I am advised by <a href="https://www.ams.jhu.edu/villar/" target="_blank">Soledad Villar</a>. Before coming to Johns Hopkins, I was a Senior Software Engineer at the foodservice startup <a href="https://www.cutanddry.com/" target="_blank">Cut+Dry</a>. Prior to that, I was trawling the mean streets of Troy, NY, getting a B.S. in Computer Science and Mathematics at Rensselaer Polytechnic Institute, and generally being a nuisance.
+	  				</paragraph>
+	  			</div>
+	  			<div class="mt-3">
+	  				<paragraph>
+	  					My research interests are in the mathematical underpinnings of data science and machine learning. Recently I have been interested in using equivariance to build better models, and dodging the curse of dimensionality through linear and nonlinear dimensionality reduction techniques.
+	  				</paragraph>
+	  			</div>
+	  			<div class="mt-3">
+	  				<paragraph>
+	  					Outside of work I enjoy playing volleyball, watching movies, and reading the news. You can find me at wgregor4 (at) jhu.edu, my office S430 in the Wyman Park Building, or simply prowling the halls of Wyman looking for snacks.
+	  				</paragraph>
+	  			</div>
+  			</div>
+  		</div>
+
+  		<div class="row mt-5 bg-info" id="research">
+  			<div class="col-sm-4"></div>
+  			<div class="col-sm-8">
+  				<h1>Research</h1>
+  			</div>
+  		</div>
+
+  		<div class="row mt-2">
+  			<div class="col-sm-4">
+  				<img class="img-fluid img-thumbnail" src="assets/gi_net.png" alt="GeometricImage-Net">
+  				<div class="d-flex justify-content-center mb-3">
+  					Scalar image convolved with scalar and vector filters
+  				</div>
+  			</div>
+  			<div class="col-sm-8">
+  				<h5>
+  					<strong>Convolution-based nonlinear functions on tensor images</strong> Wilson Gregory, David W. Hogg, Ben Blum-Smith, Maria Teresa Arias, Kaze W. K. Wong, Soledad Villar
+  					<a href="assets/equivariant_convolution_based_functions.pdf" target="_blank">here</a> Pre-Preprint (Coming Soon!), 2023
+  				</h5>
+  				<paragraph>
+  					A model, the <em>GeometricImage-Net</em>, that extends convolutional neural networks to work with images of vectors and tensors. With a simple adjustment, the GI-Net can be made equivariant to changes of coordinates.
+  				</paragraph>
+  			</div>
+  		</div>
+
+  		<div class="row mt-2">
+  			<div class="col-sm-4">
+  				<img class="img-fluid img-thumbnail" src="assets/markermap_architecture.png" alt="MarkerMap Architecture">
+  				<div class="d-flex justify-content-center mb-3">MarkerMap Architecture</div>
+  			</div>
+  			<div class="col-sm-8">
+  				<h5>
+  					<strong>MarkerMap: nonlinear marker selection for single-cell studies</strong> Nabeel Sarwar, Wilson Gregory, George Kevrekidis, Soledad Villar, Bianca Dumitrascu
+  					<a href="https://arxiv.org/abs/2207.14106" target="_blank">arxiv.org/abs/2207.14106</a> Preprint, 2022
+  				</h5>
+  				<paragraph>
+  					A generative model for selecting minimal gene sets which are maximally informative of cell type origin and enable whole transcriptome reconstruction.
+  				</paragraph>
+  			</div>
+  		</div>
+
+  	</div>
+  	<div class="mt-5 bg-secondary" style="height: 200px"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
